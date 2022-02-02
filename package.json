@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"cd ProductsList; yarn dev \" \"cd ProductDetail; yarn dev\" \"cd Shell; yarn dev \"",
+    "build": "concurrently \"cd ProductsList; yarn build \" \"cd ProductDetail; yarn build\" \"cd Shell; yarn build \"",
+    "serve": "concurrently \"cd ProductsList; yarn start \" \"cd ProductDetail; yarn start\" \"cd Shell; yarn start \"",
+    "postinstall": "concurrently \"cd ProductsList; yarn\" \"cd ProductDetail; yarn\" \"cd Shell; yarn\""
+  },
+  "dependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
