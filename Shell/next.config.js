@@ -9,8 +9,8 @@ module.exports = {
         name: 'Shell',
         remoteType: 'var',
         remotes: {
-          ProductsList: 'ProductsList@http://localhost:3002/_next/static/chunks/remoteEntry.js',
-          ProductDetail: 'ProductDetail@http://localhost:3001/_next/static/chunks/remoteEntry.js'
+          ProductsList: 'ProductsList',
+          ProductDetail: 'ProductDetail'
         },
         shared: {
           react: {
