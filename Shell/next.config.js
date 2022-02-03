@@ -3,18 +3,22 @@ const withPWA = require('next-pwa')
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
-  reactStrictMode: true,
   webpack(config, options) {
     config.plugins.push(
       new options.webpack.container.ModuleFederationPlugin({
         name: 'Shell',
         remoteType: 'var',
         remotes: {
-          productsList: 'productsList',
-          productDetail: 'ProductDetail'
+          ProductsList: 'ProductsList@http://localhost:3002/_next/static/chunks/remoteEntry.js',
+          ProductDetail: 'ProductDetail@http://localhost:3001/_next/static/chunks/remoteEntry.js'
         },
         shared: {
           react: {
+            eager: true,
+            singleton: true,
+            requiredVersion: false
+          },
+          'react-dom': {
             eager: true,
             singleton: true,
             requiredVersion: false

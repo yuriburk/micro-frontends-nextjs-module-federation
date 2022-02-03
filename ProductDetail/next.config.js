@@ -17,6 +17,4 @@ module.exports = withFederatedSidecar({
       singleton: true
     }
   }
-})({
-  reactStrictMode: true
-})
+})()

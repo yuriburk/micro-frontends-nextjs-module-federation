@@ -5,7 +5,7 @@ const { withFederatedSidecar } = require('@module-federation/nextjs-mf')
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = withFederatedSidecar({
-  name: 'productsList',
+  name: 'ProductsList',
   filename: 'static/chunks/remoteEntry.js',
   exposes: {
     './main': './src/components/Main/index.tsx'
@@ -17,6 +17,4 @@ module.exports = withFederatedSidecar({
       singleton: true
     }
   }
-})({
-  reactStrictMode: true
-})
+})()
