@@ -19,7 +19,7 @@
     "webpack": "5.38.0"
   },
   "dependencies": {
-    "@module-federation/nextjs-mf": "1.1.1",
+    "@module-federation/nextjs-mf": "2.3.1",
     "next": "11.0.0",
     "next-pwa": "^5.4.1",
     "react": "17.0.2",

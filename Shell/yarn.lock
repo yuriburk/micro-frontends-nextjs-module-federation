@@ -1223,12 +1223,12 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@module-federation/nextjs-mf@1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@module-federation/nextjs-mf/-/nextjs-mf-1.1.2.tgz#35d0565e3dc475837fa7e9b45a157b489d3de2da"
-  integrity sha512-0QwKA2ABQzOGru2YO+nCZiU9efFB/2vwTmrtedZMLZ0sK7prSTNEc/jZ/hdyfsY5lCbhVba5uECmLF8YMaZpww==
+"@module-federation/nextjs-mf@2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@module-federation/nextjs-mf/-/nextjs-mf-2.3.1.tgz#d8029e1f225c7719370ec564c6937271a74a12bc"
+  integrity sha512-mWeVr/kb0Ip0zgKXO9e/ub5PEb9wNFNFzy06+wDhXCtz1YGaPlTiyjnvpwZbAwD1ha8B3EcHjKYEB3ic/0ogKQ==
   dependencies:
-    webpack-sources "^2.2.0"
+    webpack-federated-stats-plugin "2.0.5"
 
 "@next/env@11.0.0":
   version "11.0.0"
@@ -3480,6 +3480,13 @@ expect@^27.4.2:
     jest-matcher-utils "^27.4.2"
     jest-message-util "^27.4.2"
     jest-regex-util "^27.4.0"
+
+external-remotes-plugin@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/external-remotes-plugin/-/external-remotes-plugin-1.0.0.tgz#2ad8ecad6cba28f6e0fd7bccf8536aeda1297b20"
+  integrity sha512-19cfGfzmPMXkRNpyqOHgndNB07vjk1G1V7IuyixBw8Z1QTc/IOhINy9TbWzDRPTmj64e3STTI1MJE0gI58p7YA==
+  dependencies:
+    webpack-sources "^2.2.0"
 
 fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   version "3.1.3"
@@ -6954,6 +6961,11 @@ webidl-conversions@^6.1.0:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-6.1.0.tgz#9111b4d7ea80acd40f5270d666621afa78b69514"
   integrity sha512-qBIvFLGiBpLjfwmYAaHPXsn+ho5xZnGvyGvsarywGNc8VyQJUMHJ8OBKGGrPER0okBeMDaan4mNBlgBROxuI8w==
+
+webpack-federated-stats-plugin@2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/webpack-federated-stats-plugin/-/webpack-federated-stats-plugin-2.0.5.tgz#ea184231f2cc380082af54fef5d1a9b05255b002"
+  integrity sha512-Ji+RVg3+0joPAXqqv8F9wD4lyq8ibxqYu3vzp8gaBOy7jdHcnn8egZ0KV08S5KbBlxP1n7jzq0kSN+M5uMaWyA==
 
 webpack-sources@^1.4.3:
   version "1.4.3"

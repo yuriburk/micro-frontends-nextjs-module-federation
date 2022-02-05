@@ -1216,12 +1216,12 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
-"@module-federation/nextjs-mf@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@module-federation/nextjs-mf/-/nextjs-mf-1.1.1.tgz#3832bb3e809f3df9cf228738be39eaeae1c15b1c"
-  integrity sha512-9wVJqUeEAzPxji7a73ToSxRj3KbDSk2qz3CuLaLdYCa/z/F1zz0cXNhaKvFLpvsDMJAXPrfawundUyLm523FXw==
+"@module-federation/nextjs-mf@2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@module-federation/nextjs-mf/-/nextjs-mf-2.3.1.tgz#d8029e1f225c7719370ec564c6937271a74a12bc"
+  integrity sha512-mWeVr/kb0Ip0zgKXO9e/ub5PEb9wNFNFzy06+wDhXCtz1YGaPlTiyjnvpwZbAwD1ha8B3EcHjKYEB3ic/0ogKQ==
   dependencies:
-    webpack-sources "^2.2.0"
+    webpack-federated-stats-plugin "2.0.5"
 
 "@next/env@11.0.0":
   version "11.0.0"
@@ -6948,6 +6948,11 @@ webidl-conversions@^6.1.0:
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-6.1.0.tgz#9111b4d7ea80acd40f5270d666621afa78b69514"
   integrity sha512-qBIvFLGiBpLjfwmYAaHPXsn+ho5xZnGvyGvsarywGNc8VyQJUMHJ8OBKGGrPER0okBeMDaan4mNBlgBROxuI8w==
 
+webpack-federated-stats-plugin@2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/webpack-federated-stats-plugin/-/webpack-federated-stats-plugin-2.0.5.tgz#ea184231f2cc380082af54fef5d1a9b05255b002"
+  integrity sha512-Ji+RVg3+0joPAXqqv8F9wD4lyq8ibxqYu3vzp8gaBOy7jdHcnn8egZ0KV08S5KbBlxP1n7jzq0kSN+M5uMaWyA==
+
 webpack-sources@^1.4.3:
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-1.4.3.tgz#eedd8ec0b928fbf1cbfe994e22d2d890f330a933"
@@ -6956,7 +6961,7 @@ webpack-sources@^1.4.3:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
 
-webpack-sources@^2.2.0, webpack-sources@^2.3.0:
+webpack-sources@^2.3.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-2.3.1.tgz#570de0af163949fe272233c2cefe1b56f74511fd"
   integrity sha512-y9EI9AO42JjEcrTJFOYmVywVZdKVUfOvDUPsJea5GIr1JOEGFVqwlY2K098fFoIjOkDzHn2AjRvM8dsBZu+gCA==
